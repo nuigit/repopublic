@@ -1,16 +1,32 @@
 {
-  "Herausgeber": "Xema",
-  "Nummer": "1234-5678-9012-3456",
-  "Deckung": 2e+6,
-  "Waehrung": "EURO",
-  "Inhaber":
-  {
-    "Name": "Mustermann",
-    "Vorname": "Max",
-    "maennlich": true,
-    "Hobbys": ["Reiten", "Golfen", "Lesen"],
-    "Alter": 42,
-    "Kinder": [],
-    "Partner": null
-  }
+    "firmware": [
+        {
+            "software": "v2.0.3",
+            "hardware": [
+                "v1.2"
+            ]
+        },
+        {
+            "software": "v2.0.0",
+            "hardware": [
+                "v2.0",
+                "v1.2"
+            ]
+        },
+        {
+            "software": "v0.1.1",
+            "hardware": [
+                "v1.3",
+                "v1.2"
+            ]
+        },
+        {
+            "software": "v0.1.0",
+            "hardware": [
+                "v1.3",
+                "v1.2",
+                "v1.1"
+            ]
+        }
+    ]
 }
